@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Lover</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- (used for icons) -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section>
+        <div class="info">
+            <div class="infochild">
+                <ul class="infosub">
+                    <li><i class="fa-regular fa-clock"></i>      Open hour-10am-11am</li>
+                    <li><i class="fa-solid fa-phone-volume"></i> +00 123 456 789</li>
+                    <li><i class="fa-regular fa-envelope"></i>   support@example.com</li>
+                </ul>
+                <ul>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-x"></i></li>  
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <header>
+
+        <nav>
+            <label for="">Food Lover</label>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li class="dropdown"><a href="#MENU">MENU </a><i class="fa fa-caret-down"></i>
+                    <div class="dropdown-content">
+                      <a href="dinner">Dinner</a>
+                      <a href="lunch">Lunch</a>
+                      <a href="drinks">Drinks</a>
+                      <a href="staters">Staters</a>
+                    </div>              
+                </li>         
+                <li><a href="#RESVERATION">RESVERATION</a></li>
+                <li><a href="#BLOG">BLOG</a></li>
+                <li><a href="#CONTACT">CONTACT US</a> </li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <section class="home" id="#">
+        <div class="hleft">
+            <h3>Taste the flavours of</h3>
+            <h2>SOUTH INDIA</h2>
+            <p>Order from a weekly menu of tasty meals at the click of a button. Say goodbye to meal planning and grocery shopping!</p>
+            <button class="hbtn1">Book Table</button>
+            <button class="hbtn2">Our Menu</button>
+        </div>
+        <div class="hright">
+            <img src="./img/Non-Veg-Cuisine-Transparent.png" alt="">
+        </div>
+    </section>
+    <hr style="color: rgba(255, 255, 255, 0); margin-top: 0px; margin-left: 100px; margin-right: 100px; margin-bottom: 120px;" id="ABOUT" />
+    <section class="about" id="about">
+        <div class="aleft">
+            <h3>About</h3>
+            <h1>FOOD LOVER</h1> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien. <br>
+            <br>Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.</p>
+            <br><a href=""><span>Read More →</span></a>
+        </div>
+        <div class="aright">
+            <img src="./img/about.jpg" alt="">
+        </div>
+    </section>
+    <hr style="color: rgba(255, 255, 255, 0); margin-top: 0px; margin-left: 100px; margin-right: 100px; margin-bottom: 120px;" id="MENU" />
+    <section class="menu">
+        <img width="30" height="30" src="./img/icon.png" alt="">
+        <!-- <img width="50" height="50" src="https://img.icons8.com/ios/50/knife-and-spatchula.png" /> -->
+        <h3>Food Lover</h3>
+        <h1>RESTURANT MENU</h1>
+        <div class="main">
+            <ul class="navv">
+              <li class="menu-item" >All Dishes</li>
+              <li class="menu-item active" >Dinner</li>
+              <li class="menu-item" >Lunch</li>
+              <li class="menu-item" >Drinks</li>
+              <li class="menu-item" >Starters</li>
+            </ul>
+            <div class="slides">
+                <div class="slide"><img src="./img/m1.jpg" alt=""><label for="">Steak</label></div>
+                <div class="slide"><img src="./img/m2.jpg" alt=""><label for="">Kabab</label></div>
+                <div class="slide"><img src="./img/m3.jpg" alt=""><label for="">Chicken</label></div>
+            </div>
+        </div> 
+    </section>
+    <section class="deals">
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3>Deals Today</h3>
+        <h1>TODAY SPECIAL DISH</h1>
+        <div class="main">
+            <div class="sub">
+                <img src="./img/d1 (3).png" alt="">
+                <h2>Chicken Mali</h2>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur vesti bulum vel ipsum .</p>
+                <h3><span>Starts at</span> $249</h3>
+            </div>
+            <div class="sub">
+                <img src="./img/d1 (2).png" alt="">
+                <h2>Aloo Kofta</h2>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur vesti bulum vel ipsum .</p>
+                <h3><span>Starts at</span> $299</h3>
+            </div>
+            <div class="sub">
+                <img src="./img/d1 (1).png" alt="">
+                <h2>Hakka Noodles</h2>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur vesti bulum vel ipsum .</p>
+                <h3><span>Starts at</span> $209</h3>
+            </div>
+        </div>
+        <hr style="color: rgba(255, 255, 255, 0); margin-top: 0px; margin-left: 100px; margin-right: 100px; margin-bottom:50px;" id="RESVERATION" />
+        <br>
+        <br>
+    </section>
+    <section class="resveration">
+        <div class="super">                         
+        <div class="main">
+        <div class="book">
+            <label for=""><h2><span>Book</span>  Your Table</h2></label>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="date" placeholder="Date">
+            <textarea placeholder="Comments"></textarea>
+            <button>Book Now!</button>
+        </div>
+        </div>
+        </div>
+    </section>
+    <hr style="color: rgba(255, 255, 255, 0); margin-top: 0px; margin-left: 100px; margin-right: 100px; margin-bottom: 100px;" />
+
+    <section class="offer">
+        <div class="oright">
+            <h3><span> From</span> The Menu</h3>
+            <h1>SPECIAL OFFERS</h1>
+            <div class="slid">
+                <img src="./img/o1.jpg" alt="">
+                <div class="subslid1">
+                    <h3>Fish curry</h3>
+                    <p>Lorem ipsum dolor sit amet,<br> consectetur vesti bulum vel ipsum .</p>
+                </div>
+                <div class="subslid2">
+                    <h2>$249</h2>
+                    <p><strike>$599</strike></p>
+                </div>
+            </div>
+            <div class="slid">
+                <img src="./img/o2.jpg" alt="">
+                <div class="subslid1">
+                    <h3>Chicken Tikka</h3>
+                    <p>Lorem ipsum dolor sit amet,<br> consectetur vesti bulum vel ipsum .</p>
+                </div>
+                <div class="subslid2">
+                    <h2>$499</h2>
+                    <p><strike>$999</strike></p>
+                </div>
+            </div> 
+        </div>
+        <div class="oleft"><div>  <img width="50" height="50" src="./img/icon2.png" alt="">  </div></div>
+    </section>
+    <hr style="color: rgba(255, 255, 255, 0); margin-top: 0px; margin-left: 100px; margin-right: 100px; margin-bottom: 100px;" id="BLOG" />
+
+    <section class="feedback">
+        <div class="op">
+        <i class="fa-solid fa-user-group"></i>
+        <h4>Food Lover</h4>
+        <h1>CUSTOMER FEEDBACK</h1>
+        <div class="main">
+            <div class="sub">
+                <div class="child">
+                    <p>Nunc ullamcorper augue nec accumsan porta. Ut lacinia fgiat viverra. Ut dictum turpis in ipsum sagittis finibus. <br></p>
+                    <br><span>Frinton Van</span>
+                </div>
+                <img src="./img/p1.jpg" alt="">
+            </div>
+
+            <div class="sub">
+                <div class="child">
+                    <p>Nunc ullamcorper augue nec accumsan porta. Ut lacinia fgiat viverra. Ut dictum turpis in ipsum sagittis finibus. <br></p>
+                    <br><span>Anna Van</span>
+                </div>
+                <img src="./img/p2.jpg" alt="">
+            </div>
+
+            <div class="sub">
+                <div class="child">
+                    <p>Nunc ullamcorper augue nec accumsan porta. Ut lacinia fgiat viverra. Ut dictum turpis in ipsum sagittis finibus. <br></p>
+                    <br><span>Filipe Van</span>
+                </div>
+                <img src="./img/p3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="count">
+        <div><div class="num"><h1>220+</h1></div><h2>Best Dish</h2></div>
+        <div><div class="num"><h1>50+</h1></div><h2>Awards Won</h2></div>
+        <div><div class="num"><h1>80+</h1></div><h2>Our Chefs</h2></div>
+        <div><div class="num"><h1>200+</h1></div><h2>Daily Coustomers</h2></div>
+
+    </section>
+    <hr style="color: rgba(255, 255, 255, 0); margin-top: 0px; margin-left: 100px; margin-right: 100px; margin-bottom: 20px;" id="CONTACT" />
+    <section class="subscribe">
+        <div class="mlogo"><i class="fa-solid fa-envelope-open-text"></i></div>
+        <h1>Subscribe to our Newsletter</h1>
+        <p>Lorem sit amet, ectetr iscinit. Vestibulum vel sum er. <br> suscipieros quis by lorem.</p>
+        <form action="">
+            <input type="email" placeholder="Enter Your Email"> <button>Subscribe</button>
+        </form>
+        <span>Your Emalf is safe with us. We won't spam you.</span>
+    </section>
+
+    <footer>
+        <div class="top">
+            <div class="sub">
+                <label for="">Food Lover</label>
+                <p>Lorem sit amet, ectetr iscinit Vestibulum vel sum er, suscipieros quis by lorem. <br> Sed ventis nisl a auris laoreet, at ncidnt lectus volutpat Etiam..</p> 
+                <a href="">Read More→</a>
+            </div>
+            <div class="sub1">
+                <h3>Opening Hours</h3>
+                <p><span>MONDAY</span> Closed</p>
+                <p><span>TUE-FRI</span>------10am-9pm</p>
+                <p><span>SATURAY</span>----10am-11pm</p>
+                <p><span>SUNDAY</span>----- 10am-12pm</p>
+            </div>
+            <div class="sub">
+                <h3>Latest X News</h3>
+                <div><span><i class="fa-brands fa-x"></i> </span><div class="subc"><p>Sed ventis nisl a au at ncidnt ctus volutpat https://twitter.com</p><span>2 Hours ago</span></div></div>
+                <div><span><i class="fa-brands fa-x"></i></span><div class="subc"><p>Sed ventis nisl a au at ncidnt ctus volutpat https://twitter.com</p><span>2 Hours ago</span></div></div>
+            </div>
+            <div class="sub1">
+                <h3>Instagram</h3>
+                <div class="main">
+                    <div><img src="./img/b1.jpg" alt=""></div>
+                    <div><img src="./img/d1 (1).png" alt=""></div>
+                    <div><img src="./img/o1.jpg" alt=""></div>           
+                    <div><img src="./img/o2.jpg" alt=""></div>                 
+                    <div><img src="./img/b2.jpg" alt=""></div>                 
+                    <div><img src="./img/d1 (2).png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">Copyright 2022 C Food Lover Restaurent</div>
+    </footer>
+</body>
+</html>
